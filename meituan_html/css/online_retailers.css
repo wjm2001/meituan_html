@@ -1,0 +1,251 @@
+.start{
+    width: 100%;
+    height: 100%;
+}
+.search{
+    width: 100%;
+    height: 10vw;
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.search .left1{
+    font-size: 6vw;
+    font-weight: bold;
+    color: white;
+}
+.search .middle1{  
+    width: 60vw;
+    height: 8vw;
+    border-radius: 8px;
+    font-size: 4vw;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search .middle1 .left{
+    font-size: 4vw;
+    font-weight: bold;
+    margin-left: 3vw;
+}
+.search .middle1 .right{
+    margin-right: 2vw;
+}
+.search i{
+    font-size: 6vw;
+    margin-right: 2vw;
+    color: white;
+}
+.function{
+    width: 100%;
+    height: 14vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: red;
+    margin-top: 10vw;
+}
+.function li{
+    border-radius: 6px;
+    color: white;
+    background-color: rgb(210, 40, 40);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.function li i{
+    font-size: 5vw;
+}
+.function li p{
+    font-size: 3vw;
+    margin-left: 1vw;
+}
+.function-1{
+    width: 100%;
+    height: 14vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.function-1 li{
+    font-weight: bold;
+    color: gray;
+}
+.function-1 .function-1-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.function-2{
+    width: 100%;
+    height: 39vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center
+}
+.function-2 li{
+    font-size: 3vw;
+    font-weight: bold;
+    width: 18vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.function-2 li img{
+    width: 15vw;
+    height: 15vw;
+}
+.point{
+    width: 100%;
+    height: 1vw;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.welfale{
+    width: 100%;
+    height: 39vw;
+}
+.welfale .out{
+    width: 95vw;
+    height: 37vw;
+    border-radius: 6px;
+    margin: auto;
+    margin-top: 1vw;
+    background-color: rgb(246, 63, 63);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.welfale .out .in-1{
+    width: 95vw;
+    height: 8vw;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.welfale .out .in-2{
+    width: 92vw;
+    height: 25vw;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+.welfale .out .in-2 .money{
+    width: 18vw;
+    height: 22vw;
+}
+.welfale .out .in-2 .in-2-1{
+    width: 20vw;
+    height: 20vw;
+    display: flex;
+    flex-direction: column;
+}
+.welfale .out .in-2 .in-2-1 img{
+    width: 18vw;
+    height: 13vw;
+}
+.welfale .out .in-2 .in-2-1 div{
+    width: 16vw;
+    height: 5vw;
+    background-color: red;
+    border-radius: 10px;
+}
+.welfale .out .in-2 .in-2-1 div p{
+    margin-left: 1.5vw;
+    color: white;
+}
+.welfale .out .in-2 .in-2-1 span{
+    font-size: 2vw;
+    color: gray;
+    margin-left: 2vw;
+}
+.recommend{
+    width: 100%;
+    height: 210vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 10vw;
+}
+.recommend li{
+    width: 45vw;
+    height: 64vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.recommend li img{
+    width: 45vw;
+    height: 42vw;
+}
+.recommend li .shang{
+    font-size: 4vw;
+    font-weight: bold;
+}
+.recommend li .zhong{
+    display: flex;
+    align-items: center;
+}
+.recommend li .zhong .zhong-1{
+    font-size: 2vw;
+    color: red;
+    margin-left: 1.5vw;
+}
+.recommend li .zhong .zhong-2{
+    font-size: 2vw;
+    color: gray;
+    margin-left: 2vw;
+}
+.recommend li .xia{
+    display: flex;
+    justify-content: space-between;
+}
+.recommend li .xia p{
+    font-size: 4vw;
+    color: red;
+}
+.recommend li .xia span{
+    font-size: 3vw;
+    color: gray;
+}
+.recommend li .xia i{
+    font-size: 5vw;
+}
+.bottom{
+    width: 100%;
+    height: 8vw;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+.bottom li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bottom .meituan{
+    font-size: 4vw;
+    width: 9vw;
+    height: 9vw;
+    background-color: orange;
+    border-radius: 100%;
+}

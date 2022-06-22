@@ -1,0 +1,206 @@
+.start{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(196, 199, 196, 0.764);
+}
+.head{
+    width: 100%;
+    height: 16vw;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.head .p1{
+    width: 25vw;
+    font-size: 8vw;
+    font-weight: bold; 
+    margin-left: 2vw;
+}
+.head .p2{
+    font-size: 6vw;
+    font-weight: bold;
+    color: gray;
+    margin-right: 40vw;
+}
+.head .p3{
+    font-size: 4vw;
+    color: rgb(99, 99, 99);
+    margin-right: 2vw;
+}
+.car{
+    width: 95vw;
+    height: 148vw;
+    margin-left: 2.5vw;
+    border-radius: 8px;
+    background-color: white;
+    margin-top: 16vw;
+}
+.car .car-1{
+    width: 100%;
+    height: 10vw;
+    display: flex;
+    align-items: center;
+}
+.car .car-1 i{
+    color: orange;
+    margin-left: 2vw;
+}
+.car .car-1 .car-1-1{
+    font-size: 5vw;
+    font-weight: bold;
+    margin-left: 4vw;
+}
+.car .car-1 .car-1-2{
+    font-size: 3.5vw;
+    margin-left: 2vw;
+    color: gray;
+}
+.car hr{
+    width: 85vw;
+    color: gray;
+}
+.car .car-2{
+    width: 100%;
+    height: 40vw;
+    display: flex;
+    flex-direction: column;
+}
+.car .car-2 .car-2-1{
+    display: flex;
+    align-items: center;
+}
+.car .car-2 i{
+    color: orange;
+    margin-left: 2vw;
+}
+.car .car-2 .car-2-1 p{
+    font-size: 4.5vw;
+    margin-left: 4vw;
+}
+.car .car-2 .car-2-2{
+    width: 100%;
+    height: 35vw;
+    display: flex;
+    align-items: center;
+}
+.car .car-2 .car-2-2 img{
+    width: 24vw;
+    height: 24vw;
+}
+.car .car-2 .car-2-2 .right{
+    display: flex;
+    flex-direction: column;
+}
+.car .car-2 .car-2-2 .right p{
+    font-weight: bold;
+    font-size: 4vw;
+    margin-left: 2vw;
+    margin-bottom: 6.5vw;
+}
+.car .car-2 .car-2-2 .right .xia{
+    display: flex;
+    align-items: center;
+}
+.car .car-2 .car-2-2 .right .xia span{
+    margin-left: 1vw;
+    font-size: 2vw;
+    color: gray;
+}
+.car .car-2 .car-2-2 .right .xia .kuang{
+    display: flex;
+    margin-left: 10vw;
+}
+.car .car-2 .car-2-2 .right .xia .kuang div{
+    width: 5vw;
+    height: 4vw;
+    border: solid 1px gray;
+}
+.car .car-2 .car-2-2 .right .xia .kuang div p{
+    font-size: 1vw;
+}
+.car .car-2 .lingquan{
+    width: 100%;
+    height: 6vw;
+    background-color: rgb(241, 198, 119);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.car .car-2 .lingquan .p1{
+    font-size: 3vw;
+    margin-left: 2vw;
+    color: red;
+}
+.car .car-2 .lingquan div{
+    width: 12vw;
+    height: 4vw;
+    border-radius: 8px;
+    border: solid 1px rgb(170, 115, 13);
+    margin-right: 2vw;
+}
+.car .car-2 .lingquan .p2{
+    font-size: 3vw;
+    margin: auto 1.5vw;
+    color: red;
+}
+.car-3{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.car-3 i{
+    color: orange;
+    margin-left: 2vw;
+}
+.car-3 .jine{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20vw;
+}
+.car-3 .jine .jine-1{
+    display: flex;
+    align-items: baseline;
+}
+.car-3 .jine .jine-2{
+    display: flex;
+}
+.car-3 .jiesuan{
+    width: 25vw;
+    height: 10vw;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    margin-right: 5vw;
+}
+.bottom{
+    width: 100%;
+    height: 8vw;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+.bottom li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bottom .meituan{
+    font-size: 4vw;
+    width: 9vw;
+    height: 9vw;
+    background-color: orange;
+    border-radius: 100%;
+}

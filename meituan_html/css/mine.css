@@ -1,0 +1,252 @@
+.start{
+    width: 100%;
+    background-image: linear-gradient(to bottom,rgb(236, 236, 149),rgb(189, 186, 186));
+}
+.set{
+    font-size: 5vw;
+    margin-left: 75vw;
+}
+.user{
+    width: 100%;
+    height: 15vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 4vw;
+}
+.user .touxiang{
+    width: 14vw;
+    height: 14vw;
+}
+.user .username{
+    height: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.user .username .user-function{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 2vw;
+}
+.user .username .user-function .function1{
+    width: 24vw;
+    height: 4vw;
+    background-color: orange;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.user .username .user-function .function2{
+    width: 15vw;
+    height: 4vw;
+    background-color: orange;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.user .username .user-function p{
+    font-size: 2vw;
+}
+.user .ad{
+    width: 40vw;
+    height: 12vw;
+    background-color: white;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.user .ad img{
+    width: 10vw;
+    height: 10vw;
+}
+.user .ad .ad-words{
+    display: flex;
+    flex-direction: column;
+}
+.function{
+    width: 95vw;
+    height: 18vw;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    margin-left: 2.5vw;
+    margin-top: 3vw;
+}
+.function li{
+    height: 14vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.function li img{
+    width: 15vw;
+    height: 13vw;
+}
+.function li p{
+    font-size: 3vw;
+}
+.function2{
+    width: 95vw;
+    height: 28vw;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 2.5vw;
+    margin-top: 3vw;
+}
+.function2 .up{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2vw;
+}
+.function2 .up .up1{
+    font-size: 4vw;
+    font-weight: bold;
+    margin-left: 4vw;
+}
+.function2 .up .up2{
+    font-size: 2vw;
+    color: gray;
+    margin-right: 2vw;
+}
+.function2 .down{
+    width: 95vw;
+    height: 18vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2vw;
+}
+.function2 .down li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.function2 .down img{
+    width: 16vw;
+    height: 13vw;
+}
+.function2 .down p{
+    font-size: 3vw;
+}
+.function3{
+    width: 95vw;
+    height: 22vw;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-left: 2.5vw;
+    margin-top: 3vw;
+}
+.function3 li{
+    height: 22vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.function3 li .word1{
+    font-size: 4vw;
+    font-weight: bold;
+}
+.function3 li .word2{
+    font-size: 4vw;
+    font-weight: bold;
+    margin-top: 2vw;
+}
+.function3 li .word3{
+    font-size: 1vw;
+    color: gray;
+}
+.function3 li img{
+    width: 13vw;
+    height: 8vw;
+    margin-top: 2vw;
+}
+.function4{
+    width: 95vw;
+    height: 45vw;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 2.5vw;
+    margin-top: 3vw;
+}
+.function4 li{
+    width: 16vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.function4 li img{
+    width: 15vw;
+    height: 15vw;
+}
+.function4 li p{
+    font-size: 1vw;
+}
+.function5{
+    width: 95vw;
+    height: 45vw;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 2.5vw;
+    margin-top: 3vw;
+    padding-bottom: 10vw;
+}
+.function5 li{
+    width: 16vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.function5 li img{
+    width: 15vw;
+    height: 15vw;
+}
+.function5 li p{
+    font-size: 1vw;
+}
+.bottom{
+    width: 100%;
+    height: 8vw;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+.bottom li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bottom .meituan{
+    font-size: 4vw;
+    width: 9vw;
+    height: 9vw;
+    background-color: orange;
+    border-radius: 100%;
+}
+
